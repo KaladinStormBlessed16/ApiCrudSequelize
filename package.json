@@ -1,0 +1,22 @@
+{
+    "name": "apicrud",
+    "version": "1.0.0",
+    "description": "Test for Nokia Tecss",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha tests --exit",
+        "start": "nodemon index.js"
+    },
+    "author": "David Carrió Ricardo",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mocha": "^8.3.2",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.6.2",
+        "supertest": "^6.1.3"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
